@@ -19,7 +19,7 @@ I am 38 years old, I work as a frontend-developer. My goal is to gain knowledge 
 let ul = document.createElement('ul');
 
 let liName;
- while(liName = prompt("Название?")) {
+ while(liName = prompt("Название элемента?")) {
   let li = document.createElement('li');
   let txt = document.createTextNode(liName);
   ul.append(li.append(txt));
