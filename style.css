@@ -65,9 +65,14 @@ body {
 .avatar {
   width: 120px;
   height: 120px;
-  background-image: url("assets/img/avatar.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  /*background-image: url("assets/img/avatar.svg");*/
+  /*background-size: contain;*/
+  /*background-repeat: no-repeat;*/
+}
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 @media (max-width: 768px) {
     .section {
