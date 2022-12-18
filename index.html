@@ -27,56 +27,66 @@
     <main class="main">
         <div class="container main-container">
             <section class="section" id="summary">
-                <h1 class="section-title">Vladimir Zharinov</h1>
-                <p>I am 38 years old, I work as a frontend-developer. My goal is to gain knowledge in the field of front-end development. I have hight education at medical since.</p>
-                <img class="avatar" src="assets/img/im.png" alt="Vladimir Zharinov">
+                <div class="section-container">
+                    <h1 class="section-title">Vladimir Zharinov</h1>
+                    <p>I am 38 years old, I work as a frontend-developer. My goal is to gain knowledge in the field of front-end development. I have hight education at medical since.</p>
+                    <img class="avatar" src="assets/img/im.png" alt="Vladimir Zharinov">
+                </div>
             </section>
             <section class="section" id="skills">
-                <h2 class="section-title">Skills</h2>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS (Bootstrap, TailWind)</li>
-                    <li>JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript)</li>
-                    <li>Git/GitHub</li>
-                </ul>
+                <div class="section-container2">
+                    <h2 class="section-title">Skills</h2>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS (Bootstrap, TailWind)</li>
+                        <li>JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript)</li>
+                        <li>Git/GitHub</li>
+                    </ul>
+                </div>
             </section>
             <section class="section" id="examples">
-                <h2 class="section-title">Code examples</h2>
-                <code>
-                let ul = document.createElement('ul');
-                <br>let liName;
-                <br>while(liName = prompt("Название элемента?")) {
-                <br>let li = document.createElement('li');
-                <br>let txt = document.createTextNode(liName);
-                <br>ul.append(li.append(txt));
-                <br>}
-                <br>document.body.append(ul);
-                </code>
+                <div class="section-container2">
+                    <h2 class="section-title">Code examples</h2>
+                    <code>
+                    let ul = document.createElement('ul');
+                    <br>let liName;
+                    <br>while(liName = prompt("Название элемента?")) {
+                    <br>&nbsp;&nbsp;let li = document.createElement('li');
+                    <br>&nbsp;&nbsp;let txt = document.createTextNode(liName);
+                    <br>&nbsp;&nbsp;ul.append(li.append(txt));
+                    <br>}
+                    <br>document.body.append(ul);
+                    </code>
+                </div>
             </section>
             <section class="section" id="languages">
-                <h2 class="section-title">Languages</h2>
-                <ul>
-                    <li>Russian - native speaker</li>
-                    <li>English - A2</li>
-                </ul>
+                <div class="section-container">
+                    <h2 class="section-title">Languages</h2>
+                    <ul>
+                        <li>Russian - native speaker</li>
+                        <li>English - A2</li>
+                    </ul>
+                </div>
             </section>
             <section class="section" id="contacts">
-                <h2 class="section-title">Contacts</h2>
-                <ul>
-                    <li>+79232705104</li>
-                    <li>like-tg-nickname@gmail.com</li>
-                    <li>GitHub: feedree</li>
-                    <li>Telegram: feedree</li>
-                </ul>
+                <div class="section-container">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul>
+                        <li>+79232705104</li>
+                        <li>like-tg-nickname@gmail.com</li>
+                        <li>GitHub: <a href="https://github.com/feedree/">feedree</a></li>
+                        <li>Telegram: <a href="https://t.me/feedree">feedree</a></li></li>
+                    </ul>
+                </div>
             </section>
         </div>
     </main>
     
     <footer class="footer">
         <div class="container footer-section">
-            <div class="">2022</div>
-            <div class=""><a href="https://github.com/feedree/">My Github page</a></div>
-            <div class=""><a href="https://rs.school/js/"><img style="height: 30px;" src="https://rs.school/images/rs_school_js.svg" alt="RS School logo"></a></div>
+            <div class="footer-item">2022</div>
+            <div class="footer-item"><a href="https://github.com/feedree/">My Github page</a></div>
+            <div class="footer-item"><a href="https://rs.school/js/"><img style="height: 30px;" src="https://rs.school/images/rs_school_js.svg" alt="RS School logo"></a></div>
         </div>
     </footer>
 </body>

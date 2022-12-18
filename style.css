@@ -17,14 +17,22 @@ body {
 * {
     box-sizing: border-box;
 }
+h1, h2 {
+    margin-top: 0;
+    font-weight: 600;
+}
 .header {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    background-color: #E63946;
 }
 .main {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    background-color: #F1FAEE;
 }
 .footer {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    background-color: #1D3557;
+    min-height: 50px;
 }
 .container {
     max-width: 1440px;
@@ -32,6 +40,7 @@ body {
 }
 .nav-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
@@ -39,19 +48,33 @@ body {
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
-    color: #829985;
+    color: #eaeaea;
     text-decoration: none;  
     transition: color 0.5s;
 }
 .nav-link:hover {
-    color: #4d2323;
+    color: #fff;
 }
 .main-container {
     display: flex;
     flex-wrap: wrap;
 }
-
+.section-container, .section-container2 {
+    border-radius: 5px;
+    padding: 10px;
+}
+.section-container {
+    background-color: #457B9D;
+    color: #eaeaea;
+}
+.section-container a{
+    color: #eaeaea;
+}
+.section-container2 {
+    background-color: #A8DADC;
+}
 .section {
+    padding: 20px;
     width: 50%;
 }
 
@@ -60,7 +83,10 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #829985;
+    color: #eaeaea;
+}
+.section-container2  .section-title {
+    color: #4d2323;
 }
 .avatar {
   width: 120px;
@@ -69,10 +95,29 @@ body {
   /*background-size: contain;*/
   /*background-repeat: no-repeat;*/
 }
+code {
+    display: block;
+    padding-left: 10px;
+    font-style: italic;
+}
 .footer-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: #eaeaea;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #eaeaea;
+}
+.footer-item{
+    padding: 20px;
+    font-size: 20px;
+}
+.footer-item a{
+    color: #eaeaea;
 }
 @media (max-width: 768px) {
     .section {
